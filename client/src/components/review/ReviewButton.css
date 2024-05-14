@@ -1,0 +1,23 @@
+.reviewbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:firebrick;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  .reviewbutton:hover {
+    background-color:#db7171;;
+  }
+
+  .reviewbuttontext{
+    font-weight:550;
+    margin: 0;
+  }
+  

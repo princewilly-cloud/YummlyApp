@@ -1,0 +1,16 @@
+.listPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    max-width: 1200px; 
+    margin-top: 20px; 
+    margin-left: 100px;
+    
+  }
+  

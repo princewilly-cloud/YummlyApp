@@ -1,0 +1,121 @@
+html {
+    font-size: 18px;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+@media only screen and (max-width: 560px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+input:focus {
+    outline: none;
+}
+
+.navbar {
+    background-color: #cca353;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Work Sans", sans-serif;
+    align-items: center;
+}
+
+.navItems:hover {
+    transform: scale(1.05);
+}
+
+.leftnavbar {
+    flex: 3;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    font-weight: bold;
+    display: flex;
+    padding: 0.66rem;
+    align-items: center;
+    text-align: center;
+    background-color: #cca353;
+    font-size: 30px;
+    color: #fff;
+    font-family: Poppins;
+    gap: 10px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.logo span {
+    display: initial; /* Show span on all screen sizes */
+}
+
+#homebutton {
+    display: initial; /* Show home button on all screen sizes */
+}
+
+.rightnavbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    margin-right: 25px;
+}
+
+@media (max-width: 1024px) {
+    #home,
+    #login {
+        display: initial;
+    }
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.user span {
+    margin-right: 10px;
+}
+
+.navButton {
+    border: none;
+    cursor: pointer;
+    color: black;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.navItems {
+    font-size: 18px;
+    padding: 5px 20px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .logo {
+        font-size: 24px;
+    }
+
+    .navItems {
+        padding: 5px 15px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .logo {
+        font-size: 20px;
+    }
+
+    .navItems {
+        padding: 5px 10px;
+    }
+}

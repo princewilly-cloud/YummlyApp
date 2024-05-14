@@ -1,0 +1,31 @@
+.save-button {
+    background-color: rgb(249, 246, 246); 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: background-color 0.3s ease;  
+  }
+  .save-button:hover{
+    background-color: rgb(221, 220, 220);
+  }
+  
+  .save-icon {
+    width: 20px; /* Set width for the icon */
+    height: auto; /* Automatically adjust height */
+    vertical-align: middle; /* Align icon vertically */
+    margin-right: 10px; /* Adjust spacing between icon and text */
+  }
+  
+  .save-text {
+    display: inline; /* Ensure text appears inline with the icon */
+    margin: 0; 
+    vertical-align: middle; 
+    color: black; 
+    font-weight:550;
+  }
+
+ 
