@@ -24,4 +24,4 @@ Yummly is a "Software as a Service" (SaaS) web application inspired by Yelp, des
 ## External API
 
 Yummly utilizes the Yelp API for fetching restaurant data:
-- Yelp API Endpoint: [Yelp Business Search](https://api.yelp.com/v3/businesses/search)
+- Yelp API Endpoint: [Yelp Business Search](https://docs.developer.yelp.com/reference/v3_business_search)
